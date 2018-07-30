@@ -1,2 +1,3 @@
 # Node-Traverser-A*-Algorithm
-A C++ program that demonstrates the heuristic approaches to traverse through nodes. 
+ 
+  A C++ program that implements variation of A* algorithm. There are two heuristics for user to choose from; fewest links, and straight line distance. In total, we had three files (main.cpp, node.h, and map.h). Main file acts like a menu utility; control center. From menu, we ask for all needed information for the user. Node file is a class that represents a single instance of the city. Each city has name, x-coordinate, y-coordinate, and array of pointers that connect to different cities. Lastly, map is a class as well that represents a graph where cities are stored in an array and connected to each other by pointers. 
